@@ -1,0 +1,29 @@
+img{
+    width: 100%;
+}
+#bee{
+    position: absolute;
+    height: 8%;
+    width: 8%;
+    right: 5%;
+    top: 50%;
+}
+.active{
+    left: 5%;
+    animation: yup 3s linear 1;
+}
+@keyframes yup{
+    0%{
+        right: 5%;
+    }
+    100%{
+        left: 5%;
+    }
+}
+#sunflower{
+position: absolute;
+top: 40%;
+height: 18%;
+width: 18%;
+left: 5%;
+}
