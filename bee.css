@@ -14,7 +14,6 @@ right: 5%;
     rotate: 1800deg;
     transition: 5s linear;
 }
-
 .active{
     position: absolute;
     right: 82%;
