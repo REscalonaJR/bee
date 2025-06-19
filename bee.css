@@ -1,6 +1,9 @@
 img{
     width: 100%;
 }
+#mood{
+    font-size: 300%;
+}
 #bee{
     position: absolute;
     height: 18%;

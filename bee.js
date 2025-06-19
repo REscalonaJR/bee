@@ -18,10 +18,6 @@ if (pester == 1) {
         bee.style.backgroundColor = "rgba(255,0,0,0.333)"
 } else if (pester == 3) {
         bee.style.backgroundColor = "rgba(255,0,0,0.500)"
-        let mood = document.createElement('div')
-        mood.style.fontSize = "150%"
-        mood.innerHTML = ">:("
-        mood.style.rotate = "90deg"
 }
         })
 }, 3000);
