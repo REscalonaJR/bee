@@ -11,6 +11,7 @@ img{
 right: 5%;
 }
 .active{
+    position: absolute;
     right: 90%;
     animation: yup 3s linear 1;
 }
