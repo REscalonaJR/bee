@@ -10,6 +10,17 @@ img{
 .deactive{
 right: 5%;
 }
+.spin{
+    animation: spin 1s linear infinite;
+}
+@keyframes spin{
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
 .active{
     position: absolute;
     right: 85%;
