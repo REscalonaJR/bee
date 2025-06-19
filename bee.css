@@ -9,7 +9,7 @@ img{
     top: 50%;
 }
 .active{
-    left: 5%;
+    right: 5%;
     animation: yup 3s linear 1;
 }
 @keyframes yup{
@@ -17,7 +17,7 @@ img{
         right: 5%;
     }
     100%{
-        left: 5%;
+        right: 90%;
     }
 }
 #sunflower{
