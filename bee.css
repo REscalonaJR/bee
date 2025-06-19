@@ -12,7 +12,7 @@ right: 5%;
 }
 .active{
     position: absolute;
-    right: 90%;
+    right: 85%;
     animation: yup 3s linear 1;
 }
 @keyframes yup{
@@ -20,7 +20,7 @@ right: 5%;
         right: 5%;
     }
     100%{
-        right: 90%;
+        right: 85%;
     }
 }
 #sunflower{
