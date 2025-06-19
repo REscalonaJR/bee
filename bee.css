@@ -5,11 +5,13 @@ img{
     position: absolute;
     height: 8%;
     width: 8%;
-    right: 5%;
     top: 50%;
 }
+.deactive{
+right: 5%;
+}
 .active{
-    right: 5%;
+    right: 90%;
     animation: yup 3s linear 1;
 }
 @keyframes yup{
