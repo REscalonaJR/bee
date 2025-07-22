@@ -1,39 +1,8 @@
-img{
-    width: 100%;
-}
-#mood{
-    font-size: 300%;
-}
-#bee{
+textarea{
     position: absolute;
-    height: 18%;
-    width: 8%;
-    top: 50%;
-}
-.deactive{
-right: 5%;
-}
-.spin{
-    rotate: 1800deg;
-    transition: 5s linear;
-}
-.active{
-    position: absolute;
-    right: 82%;
-    animation: yup 3s linear 1;
-}
-@keyframes yup{
-    0%{
-        right: 5%;
-    }
-    100%{
-        right: 82%;
-    }
-}
-#sunflower{
-position: absolute;
-top: 40%;
-height: 18%;
-width: 18%;
-left: 5%;
+    left: 300px;
+    top: 300px;
+    border: 3px;
+    height: 200px;
+    width: 600px;
 }
